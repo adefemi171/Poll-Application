@@ -31,11 +31,19 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # importing the PollsConfig class in polls/app.py
+    'polls.apps.PollsConfig',
+    # The admin site
     'django.contrib.admin',
+    # An authentication system
     'django.contrib.auth',
+    # A framework for content types
     'django.contrib.contenttypes',
+    # A session framework
     'django.contrib.sessions',
+    # A messaging framework
     'django.contrib.messages',
+    # A framework for manipulating static files
     'django.contrib.staticfiles',
 ]
 
