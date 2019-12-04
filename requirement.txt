@@ -1,0 +1,2 @@
+Running Django on another port, eg: 8080, use:
+python manage.py runserver 8080
